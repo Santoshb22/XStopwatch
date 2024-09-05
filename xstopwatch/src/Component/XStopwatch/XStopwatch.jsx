@@ -43,7 +43,7 @@ const XStopwatch = () => {
         </div>
 
         <div className="time-controller">
-            <button onClick={handleStartTimer}>{runTimer === false? "start" : "stop"}</button>
+            <button onClick={handleStartTimer}>{runTimer === false? "Start" : "Stop"}</button>
             <button onClick={handleResetTimer}>Reset</button>
         </div>
     </div>
